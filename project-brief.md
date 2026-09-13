@@ -53,9 +53,7 @@ Purpose:
 Administrative boundary data will be used to identify and define the study area, particularly Oshimili South and the adjoining Oshimili North area.
 
 Source:
-GADM: https://gadm.org/download_country.html
-
-Humanitarian Data Exchange: https://data.humdata.org/dataset/cod-ab-nga
+https://grid3.org/
 
 ### 3.5 OpenStreetMap Road Network
 
@@ -63,7 +61,7 @@ Purpose:
 Road data will be used to examine the relationship between urban expansion and major transportation routes around Asaba.
 
 Source:
-Geofabrik Nigeria: https://download.geofabrik.de/africa/nigeria.html
+OpenStreetMap
 
 
 ## 4. Summary
