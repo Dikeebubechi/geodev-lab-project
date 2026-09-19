@@ -55,19 +55,15 @@ Area was calculated after reprojection to the projected CRS **EPSG:32632** so th
 
 The area was calculated in square metres using the QGIS Field Calculator:
 
-```qgis
 $area
-```
 
 The area was then converted to square kilometres using:
 
-```qgis
+
 $area / 1000000
-```
 
 The resulting study-area value was checked to ensure that it was reasonable for the defined Asaba study area.
 
-**Final study-area value:** `[INSERT YOUR ACTUAL AREA IN km² FROM QGIS]`
 
 The area calculation was used as a sanity check to confirm that the projected study-area geometry produced a reasonable measurement.
 
@@ -175,14 +171,12 @@ The OSM road dataset will be used as current/reference supporting data and not a
 
 The prepared analysis-ready files are stored in:
 
-```text
 data/processed/
-```
 
 The processed data include:
 
 * **Study-area boundary:** `study_area.gpkg`
-* **Clipped OSM road network:** `[INSERT EXACT ROAD FILENAME]`
+* **Clipped OSM road network:** `roads_asaba.gpkg
 
 All processed layers are in:
 
@@ -190,13 +184,11 @@ All processed layers are in:
 
 The original source data remain in:
 
-```text
 data/raw/
-```
 
 and were not modified.
 
----
+
 
 # Summary
 
