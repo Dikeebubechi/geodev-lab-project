@@ -84,4 +84,4 @@ with it.
 
 ---
 
-**Status:** Week 2 complete. Reprojection and quality checks in Week 3, see [03-data-preparation.md](03-data-preparation.md).
+**Status:** Week 2 complete. Reprojection and quality checks in Week 3, see [DATA-PREPARATION.md](DATA-PREPARATION.md).
