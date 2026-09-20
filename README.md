@@ -36,7 +36,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-The data is not included in this repository. The sources and information about each dataset are provided in [the project brief](docs/01-project-brief.md), so the datasets can be obtained from their original sources.
+The data is not included in this repository. The sources and information about each dataset are provided in [the project brief](docs/-project-brief.md), so the datasets can be obtained from their original sources.
 
 ## Progress
 
