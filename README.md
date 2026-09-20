@@ -47,5 +47,5 @@ The data is not included in this repository. The sources and information about e
 
 ---
 
-Ebubechi · GeoDev Lab Africa
+Dike Ebubechi · GeoDev Lab Africa
 Learn. Build. Collaborate. Transform.
