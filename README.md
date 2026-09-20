@@ -2,7 +2,7 @@
 
 This project examines the expansion of built-up areas and the spatial direction of urban growth in Asaba, Delta State, Nigeria, between 2000 and 2025.
 
-**GeoDev Lab Africa, Cohort One.** Ebubechi
+**GeoDev Lab Africa, Cohort One.** Dike Ebubechi
 
 ---
 
@@ -36,7 +36,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-The data is not included in this repository. The sources and information about each dataset are provided in [the project brief](docs/-PROJECT-BRIEF.md), so the datasets can be obtained from their original sources.
+The data is not included in this repository. The sources and information about each dataset are provided in [the project brief](docs/PROJECT-BRIEF.md), so the datasets can be obtained from their original sources.
 
 ## Progress
 
