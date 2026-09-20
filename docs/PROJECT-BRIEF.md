@@ -64,4 +64,4 @@ The final analysis will also identify the main directions and areas of urban exp
 ---
 
 **Status:** Week 1 complete. Data acquisition in Week 2, see
-[02-data-notes.md](DATA-NOTES.md).
+[DATA-NOTES.md](DATA-NOTES.md).
