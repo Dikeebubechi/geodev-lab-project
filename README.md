@@ -182,6 +182,14 @@ The repository contains:
 * Week 4 map
 * Monthly summary
 
+## Project Result
+
+The analysis estimated that the built-up area within the Asaba study area increased from **13.10 km² (1,310.27 ha) in 2000** to **30.06 km² (3,005.88 ha) in 2025**.
+
+This represents an absolute increase of approximately **16.96 km² (1,695.61 ha)**, or an estimated **129.41% increase** in built-up area between 2000 and 2025.
+
+This answers the "how much" part of the project's main question. Further spatial analysis is required to determine the specific directions of expansion.
+
 ---
 
 **Dike Ebubechi · GeoDev Lab Africa**
