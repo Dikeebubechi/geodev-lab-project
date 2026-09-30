@@ -107,9 +107,9 @@ The Week 4 analysis and results are documented in the monthly summary.
 
 **File:** [04-month-1-summary.md](docs/month-1-summary.md)
 
-**Map:** [Week 4 map](maps/)
+**Map:** [Week 4 map](maps/asaba_100m_road_buffer.png)
 
-**Processed data:** [Processed data](data/processed/)
+**Processed data:** [Processed data](data/processed/asaba_roads_100m_buffer.gpkg)
 
 ---
 
