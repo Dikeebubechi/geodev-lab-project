@@ -20,8 +20,6 @@ I chose the buffer operation because roads provide an important spatial referenc
 
 The 100 m buffer creates a road-proximity zone around the existing road network. This provides supporting spatial information for interpreting the relationship between roads and urban growth in the Asaba study area.
 
-The buffer does not by itself measure built-up change between 2000 and 2025. Instead, it provides supporting information that can be considered alongside the historical and current built-up/LULC data required for the main analysis.
-
 ## What I Expected
 
 Before running the operation, I expected the 100 m buffer to produce road-proximity polygons around the clipped OSM road network.
@@ -54,26 +52,44 @@ The geometry check produced:
 
 This indicates that all 7,012 buffer features passed the geometry check.
 
+## Built-up Area Result
+
+Using the Asaba study area and Landsat imagery processed in Google Earth Engine, the estimated built-up area was:
+
+* **2000:** 1,310.27 ha (**13.10 km²**)
+* **2025:** 3,005.88 ha (**30.06 km²**)
+
+The estimated absolute expansion was:
+
+* **1,695.61 ha**
+* **16.96 km²**
+
+This represents an estimated **129.41% increase** in built-up area between 2000 and 2025.
+
+Therefore, the analysis answers the "how much" part of the project question: the built-up area increased by approximately **16.96 km² between 2000 and 2025**.
+
+The 100 m road-buffer analysis provides supporting information for interpreting the spatial relationship between the road network and urban growth. The current analysis does not yet quantify the specific direction of expansion.
+
 ## What Surprised Me
 
-The result was generally consistent with my expectations. The number of buffer features remained exactly the same as the input road features because the buffer was created without dissolving.
+The number of buffer features remained exactly the same as the input road features because the buffer was created without dissolving.
 
 The geometry check also showed that all 7,012 output features were valid, with no invalid geometries or errors.
 
+The built-up analysis also showed a substantial increase in the estimated built-up area between 2000 and 2025, from 13.10 km² to 30.06 km².
+
 ## What Data I Still Need
 
-The 100 m road-buffer analysis provides supporting information about the spatial relationship between the road network and areas around the roads. However, it does not directly measure how much built-up area changed between 2000 and 2025.
+To fully answer the project question, I still need additional spatial analysis to determine the **directions of built-up expansion** between 2000 and 2025.
 
-To answer the main project question, I still need suitable historical and current **built-up/LULC data for the 2000–2025 period**. These data will be used to measure the amount of built-up expansion and determine the direction of urban growth.
-
-The OSM road network will be used as supporting/current reference data rather than as the sole dataset for measuring historical built-up change.
+The OSM road network and 100 m road buffer will provide supporting information for interpreting the relationship between urban growth and the road network.
 
 ## Week 4 Output
 
 The 100 m road-buffer output was saved as an analysis-ready GeoPackage in:
 
 ```text
-data/processed/
+data/processed/asaba_roads_100m_buffer.gpkg
 ```
 
 The map showing the 100 m road buffer was exported as a PNG and saved in the project repository.
