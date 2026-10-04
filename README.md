@@ -190,7 +190,7 @@ This represents an absolute increase of approximately **16.96 km² (1,695.61 ha)
 
 This answers the "how much" part of the project's main question. Further spatial analysis is required to determine the specific directions of expansion.
 
-## Month 2: development environment and early Python
+## Month 2: Development Environment and early Python
 
 ### Week 5: 
 
